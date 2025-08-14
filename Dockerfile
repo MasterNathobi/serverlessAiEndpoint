@@ -7,7 +7,7 @@ COPY models/ /app/models/
 COPY scripts/ /app/scripts/
 
 # Install dependencies
-RUN pip install --no-cache-dir -r /requirements.txt
+RUN pip install --no-cache-dir -r scripts/requirements.txt
 
 # Set entrypoint
 CMD ["python", "scripts/main.py"]
