@@ -3,12 +3,11 @@ FROM python:3.10-slim
 # Set working directory
 WORKDIR /app
 
-# Copy scripts and models
-COPY scripts/ /app/scripts/
 COPY models/ /app/models/
+COPY scripts/ /app/scripts/
 
 # Install dependencies
-RUN pip install --no-cache-dir -r scripts/requirements.txt
+RUN pip install --no-cache-dir -r /requirements.txt
 
 # Set entrypoint
-CMD ["python", "scripts/app.py"]
+CMD ["python", "scripts/main.py"]
