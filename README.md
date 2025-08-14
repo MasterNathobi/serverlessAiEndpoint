@@ -12,7 +12,7 @@ This repository contains the structure for deploying a serverless AI endpoint us
 ## Setup Instructions
 
 1. Clone this repository:
-   git clone https://github.com/yourusername/serverlessAiEndpoint.git
+   git clone https://github.com/MasterNathobi/serverlessAiEndpoint.git
 
 2. Navigate to the project directory:
    cd serverlessAiEndpoint
